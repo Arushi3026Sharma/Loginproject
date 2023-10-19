@@ -1,0 +1,179 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(28, 28, 28);
+}
+.logbox{
+    background: #f0f6f6;
+    height: 600px;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 45px;
+    border-radius: 5px;
+}
+.box1{
+    background: #fff;
+    height: 485px;
+    width: 363px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.details{
+    background: #fff;
+    height: 489px;
+    width: 359px;
+    border: 1px solid rgb(230, 229, 229);
+    /* margin: 20px; */
+    border-radius: 5px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+}
+.signin{
+    border: 1px solid rgb(230, 229, 229);
+    border-top: 3px solid green;
+    height: 35px;
+    width: 50%; 
+    /* align-items: center; */
+    padding-top: 10px;
+    /* padding-left: 30px;  */
+    text-align: center;
+}
+.signup{
+    background: rgb(230, 229, 229);
+    /* border-top: 2px solid green; */
+    height: 35px;
+    width: 50%; 
+    /* align-items: center; */
+    padding-top: 10px;
+    /* padding-left: 30px;  */
+    text-align: center;
+}
+.username{
+    width: 255px;
+    height: 40px;
+    /* background-color: blue; */
+    display: flex;
+    border-radius: 8px;
+    margin: 20px;
+    border: 1px solid rgb(151, 144, 144) ;
+}
+.username input, .bi{
+    background: transparent;
+    border: none;
+    font-size: 16px;
+}
+
+.username .bi{
+    margin: 8px;
+    color: rgb(151, 144, 144) ;
+}
+.forgotdiv{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background: rgb(40, 210, 40);
+    width: 80%;
+    height: 30px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 37px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+p{
+font-size: 16px;
+color: rgb(151, 144, 144);
+margin-left: 60px;
+}
+.googleline{
+    display: flex;
+    width: 80%;
+    margin-left: 40px;
+    height: 30px;
+    justify-content: space-between;
+}
+.google{
+    display: flex;
+    justify-content: space-evenly;
+    width: 110px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    font-weight: 300;
+    color: #fff;
+    font-size: 18px;
+    align-items: center;
+    border-radius: 4px;
+
+}
+.face{
+    display: flex;
+    justify-content: space-evenly;
+    width: 110px;
+    height: 30px;
+    background-color: rgb(15, 94, 206);
+    border: none;
+    font-weight: 300;
+    color: #fff;
+    font-size: 18px;
+    align-items: center;
+    border-radius: 4px;
+
+}
+.linkedin{
+    display: flex;
+    justify-content: space-evenly;
+    width: 110px;
+    height: 30px;
+    background-color: rgb(112, 164, 235);
+    border: none;
+    font-weight: 300;
+    color: #fff;
+    font-size: 18px;
+    align-items: center;
+    border-radius: 4px;
+    margin-top: 20px;
+
+}
+.github{
+    display: flex;
+    justify-content: space-evenly;
+    width: 110px;
+    height: 30px;
+    background-color: rgb(8, 163, 75);
+    border: none;
+    font-weight: 300;
+    color: #fff;
+    font-size: 18px;
+    align-items: center;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.account h4{
+    color: blue;
+    /* font-weight: 300; */
+    font-size: 19px;
+    margin: 0 auto;
+}
+.account{
+    margin-top: 32px;
+    margin-left: 80px;
+}
+.end{
+    margin-top: 10px;
+    margin-left: 115px;
+    color: black;
+    font-size: 16px;
+}
